@@ -21,7 +21,11 @@ public class Operadores {
         System.out.println("Resto da divisão é: " + (22%2));/* Assim podemos descobrir se o numero é par ou impar*/
          System.out.print(numeroDouble);
 
-
+                     /* +	operador de adição
+                        -	operador subtração
+                        *	operador de multiplicação
+                        /	operador de divisão
+                        %	operador de módulo (ou resto da divisão)*/
 
     }
 
