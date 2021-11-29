@@ -1,16 +1,18 @@
 public class ControleFluxo2 {
     public static void main(String[] args) {
 
-        /*Saber se é maior de idade*/
+        /*Saber se é maior de idade utilizando operador ternario*/
 
-       /*int idade= 10;
+        int idade = 20;
+        String status;
 
-        if (idade <18){
-            System.out.println("Você é de menor");
-        }else {
-        System.out.println( " Você de maior");
-        }*/
-        int idade= 64;
+
+        status = idade < 18 ? "Você é de menor" : "Você é maior"; //forma de inicializar uma variavel usando uma linha só
+        System.out.println(status);
+
+
+
+       /* int idade= 64;
         String status;
 
         if (idade <=17){
@@ -45,7 +47,7 @@ public class ControleFluxo2 {
             System.out.println(" Aluno em exame final!!");
         }else {
             System.out.println("Aluno reprovado");
-        }
+        }*/
 
     }
 }
