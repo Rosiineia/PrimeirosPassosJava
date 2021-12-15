@@ -13,6 +13,8 @@ public class CarrosTest01 {
         carros.modelo = "Fusca 01";
         carros.ano = 1950;
 
+        //carros = carros1;
+
         carros1.nome = "Sport";
         carros1.modelo = "Sport 01";
         carros1.ano = 1980;
