@@ -7,8 +7,5 @@ public class OperadoresLogicos {
 
         System.out.println(idade >= 18 && salario >= 3000);
         System.out.println(idade >= 18 || salario >= 3000);
-
-
-
     }
 }
