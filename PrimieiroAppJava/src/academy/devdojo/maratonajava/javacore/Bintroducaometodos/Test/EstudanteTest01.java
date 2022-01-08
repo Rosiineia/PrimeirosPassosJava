@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.Test;
 
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.Estudante;
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.ImpressoraEstudante;
 import jdk.swing.interop.SwingInterOpUtils;
 
 public class EstudanteTest01 {
@@ -8,6 +9,7 @@ public class EstudanteTest01 {
         Estudante estudante01 = new Estudante();
         Estudante estudante02 = new Estudante();
         Estudante estudante03 = new Estudante();
+        ImpressoraEstudante impressora = new ImpressoraEstudante();
 
 
         estudante01.nome = "Maria Clara";
@@ -22,22 +24,31 @@ public class EstudanteTest01 {
         estudante03.idade = 18;
         estudante03.sexo = 'F';
 
-        System.out.println("Nome: " + estudante01.nome);
+        //impressora.imprime(estudante01);
+
+        /*System.out.println("Nome: " + estudante01.nome);
         System.out.println("Idade: " + estudante01.idade + " anos");
-        System.out.println("Sexo: " + estudante01.sexo);
+        System.out.println("Sexo: " + estudante01.sexo);*/
 
-        System.out.println("______________________________");
+       // System.out.println("______________________________");
 
-        System.out.println("Nome: " + estudante02.nome);
+        /*System.out.println("Nome: " + estudante02.nome);
         System.out.println("Idade: " + estudante02.idade);
-        System.out.println("Sexo: " + estudante02.sexo);
-        System.out.println("________________________________");
+        System.out.println("Sexo: " + estudante02.sexo);*/
+       // System.out.println("________________________________");
 
-        System.out.println("Nome: " + estudante03.nome);
+        /*System.out.println("Nome: " + estudante03.nome);
         System.out.println("Idade: " + estudante03.idade + " anos");
-        System.out.println("Sexo: " + estudante03.sexo);
+        System.out.println("Sexo: " + estudante03.sexo);*/
 
+       /* impressora.imprime(estudante02);
 
+        impressora.imprime(estudante01);
 
+        impressora.imprime(estudante03);*/
+        estudante02.imprime();
+        estudante01.imprime();
+
+        System.out.println("Impressão finalizada!!!");
     }
 }
