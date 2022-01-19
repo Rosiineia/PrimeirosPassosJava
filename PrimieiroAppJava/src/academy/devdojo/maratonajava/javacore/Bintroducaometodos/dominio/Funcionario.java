@@ -26,6 +26,5 @@ public class Funcionario {
       System.out.println("Media Salarial: " + media);
 
    }
-
 }
 //rever aula 52,53
